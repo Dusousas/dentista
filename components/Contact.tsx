@@ -3,7 +3,7 @@ import { MdArrowDropDown } from 'react-icons/md';
 
 export default function Contact() {
     return (
-        <section className=''>
+        <section id='contato' className=''>
             <div className='flex flex-col lg:flex-row'>
                 {/* Horários de Funcionamento */}
                 <article className='bg-[#F6F9F9] py-20 w-full flex justify-center lg:w-1/2'>
@@ -43,8 +43,15 @@ export default function Contact() {
                                 <select className="border-b-2 bg-transparent border-BlueP p-2 w-full appearance-none cursor-pointer outline-none pr-10" name="treatment" id="treatment">
                                     <option value="" disabled selected>Selecione um tratamento</option>
                                     <option value="tratamento1">Avaliação</option>
-                                    <option value="tratamento2">Tratamento 2</option>
-                                    <option value="tratamento3">Tratamento 3</option>
+                                    <option value="tratamento2">Ortodontia e Ortopedia / Aparelho</option>
+                                    <option value="tratamento3">Clínica geral </option>
+                                    <option value="tratamento4">Clareamento dentário</option>
+                                    <option value="tratamento5">Atendimento infantil</option>
+                                    <option value="tratamento6">Implante</option>
+                                    <option value="tratamento7">Laserterapia</option>
+                                    <option value="tratamento8">Próteses </option>
+                                    <option value="tratamento9">Endodontia / Canal</option>
+                                    <option value="tratamento10">Estética</option>                                
                                 </select>
                                 <div className="absolute right-0 top-1/2 transform -translate-y-1/2 text-2xl pointer-events-none">
                                     <MdArrowDropDown />

@@ -4,7 +4,7 @@ import Cards from './subc/Cards';
 export default function Services() {
     return (
         <>
-            <section className='bg-white pt-20 pb-10'>
+            <section id='servicos' className='bg-white pt-20 pb-10'>
                 <div className='flex flex-col items-center justify-center maxW'>
                     <div className='relative'>
                         <img src="/nc1_hover.png" alt="" className='block mx-auto px-10' />

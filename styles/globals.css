@@ -6,6 +6,10 @@ html, body {
   height: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .maxW{
     max-width: 1620px;
     margin: 0 auto;
@@ -20,6 +24,8 @@ html, body {
   /* background-attachment: fixed; */
   height: calc(100vh - 80px);
 }
+
+
 
 .bgAbout{
   background-image: url('/aboutBG.jpg');

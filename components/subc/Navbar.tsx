@@ -11,7 +11,7 @@ export default function Navbar() {
                 <ul className='flex gap-6 uppercase'>
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#servicos">Serviços</a></li>
-                    <li><a href="#sobre-nos">Sobre nós</a></li>
+                    <li><a href="#sobre">Sobre nós</a></li>
                     <li><a href="#dentistas">Profissionais</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>

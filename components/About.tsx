@@ -6,7 +6,7 @@ import { MdEmail, MdOutlinePhonelinkRing } from 'react-icons/md';
 export default function About() {
     return (
         <>
-            <section className='bg-white py-10 bgAbout'>
+            <section id='sobre' className='bg-white py-10 bgAbout'>
                 <div className='flex flex-col items-center justify-center maxW'>
                     <article className='relative'>
                         <img src="/ico-hover.png" alt="" className='block mx-auto px-10' />
@@ -24,8 +24,8 @@ export default function About() {
                         <div className='lg:w-1/2 text-center lg:text-left'>
                             <h1 className='text-xl uppercase text-GrayS font-semibold'>Cuidando de sorrisos</h1>
                             <div className='border-b border-BlueP w-[30%] mt-2 mx-auto lg:mx-0' />
-                            <p className='mt-4 text-GrayP font-light'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis architecto quod sequi doloribus quam autem quae deserunt quibusdam, deleniti blanditiis exercitationem dolor aliquam, voluptatum suscipit consequatur eum. Similique, reprehenderit atque? Quos magnam necessitatibus autem repellendus.</p>
-                            <p className='mt-2 text-GrayP font-light'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis architecto quod sequi doloribus quam autem quae deserunt quibusdam, deleniti blanditiis exercitationem dolor aliquam, voluptatum suscipit consequatur eum. Similique, reprehenderit atque? Quos magnam necessitatibus autem repellendus.</p>
+                            <p className='mt-4 text-GrayP font-light'>Na nossa clínica, acreditamos que um sorriso saudável vai além da estética, é reflexo de bem-estar, autoestima e qualidade de vida. Por isso, nos dedicamos diariamente a oferecer um atendimento humanizado, ético e personalizado, com foco no cuidado integral da saúde bucal.</p>
+                            <p className='mt-2 text-GrayP font-light'>Contamos com uma equipe de profissionais qualificados e apaixonados pelo que fazem, sempre atualizados com as mais modernas técnicas e tecnologias da odontologia. Nossa estrutura foi pensada para proporcionar conforto, segurança e tranquilidade em cada etapa do seu tratamento.</p>
                             <div className='mt-8'>
                                 <a className='border border-GrayS py-4 px-6 uppercase' href="">Fale com um Especialista</a>
                             </div>
@@ -36,11 +36,11 @@ export default function About() {
                         <div className='lg:w-1/2 text-center lg:text-left mt-10 lg:mt-0'>
                             <h1 className='text-xl uppercase text-GrayS font-semibold'>Cliníca <span className='text-BlueP'>Espaço Saúde</span></h1>
                             <div className='border-b mx-auto border-BlueP w-[30%] mt-2 lg:mx-0' />
-                            <p className='mt-4 text-GrayP font-light'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis architecto quod sequi doloribus quam autem quae deserunt quibusdam, deleniti blanditiis exercitationem dolor aliquam, voluptatum suscipit consequatur eum. Similique, reprehenderit atque? Quos magnam necessitatibus autem repellendus.</p>
-                            <p className='mt-2 text-GrayP font-light'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis architecto quod sequi doloribus quam autem quae deserunt quibusdam, deleniti blanditiis exercitationem dolor aliquam, voluptatum suscipit consequatur eum. Similique, reprehenderit atque? Quos magnam necessitatibus autem repellendus.</p>
+                            <p className='mt-4 text-GrayP font-light'>O Espaço Saúde Odontologia está em atividade desde 2017, na cidade de Torrinha, com profissionais capacitados e atualizados, trazendo para cidade uma odontologia acessível, tratamento humanizado e responsável. Contamos com um ambiente amplo e aconchegante para receber nossos pacientes e tornarmos a experiência leve e tranquila.</p>
                             <div className='mt-8 flex flex-col items-center justify-center gap-4 lg:justify-start lg:items-start'>
                                 <p className='flex gap-2 text-GrayS'><FaMapMarked className='text-BlueP text-xl' />Rua XV de novembro, 321 Torrinha-SP</p>
-                                <p className='flex gap-2 text-GrayS'><MdOutlinePhonelinkRing className='text-BlueP text-xl' />91234-5678</p>
+                                <p className='flex gap-2 text-GrayS'><MdOutlinePhonelinkRing className='text-BlueP text-xl' />                              
+                                14 91234-5678</p>
                                 <p className='flex gap-2 text-GrayS'><MdEmail className='text-BlueP text-xl' />contato@espaçosaude.com</p>
                                 <div className='flex items-center justify-center gap-4 lg:justify-start lg:items-start'>
                                     <a href=""><FaSquareInstagram className='text-BlueP text-xl' /></a>
@@ -51,10 +51,9 @@ export default function About() {
 
                         </div>
                         <div className='lg:w-1/2'>
-                            <img className='arrow-border' src="about1.jpg" alt="" />
+                            <img className='arrow-border' src="mainbg.jpg" alt="" />
                         </div>
                     </article>
-
 
                 </div>
             </section>
