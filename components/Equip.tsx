@@ -20,7 +20,7 @@ export default function Equip() {
         <section id='dentistas' className='py-10'>
             <div className='maxW'>
             <h1 className='text-2xl uppercase text-GrayS text-center'>Nossos <span className='text-BlueP font-medium'>Especialistas</span></h1>
-            <p className='mb-10 mt-4 text-GrayP font-extralight text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit explicabo impedit voluptas ullam quis sapiente quo excepturi, blanditiis tempore error exercitationem quas unde totam laborum voluptatibus eos nam! Dignissimos, sapiente.</p>
+            <p className='mb-10 mt-4 text-GrayP font-extralight text-center'>Conheça nossa equipe de dentistas altamente qualificados, cada um dedicado a uma especialidade para oferecer o melhor cuidado ao seu sorriso.</p>
 
                 <Swiper
                     className='custom'
@@ -28,7 +28,7 @@ export default function Equip() {
                     spaceBetween={20}
                     speed={800}
                     autoplay={{ delay: 3000 }}
-                    pagination={{ clickable: true }}
+                    pagination={{ clickable: true }}                    
                     breakpoints={{
                         400: { slidesPerView: 1, slidesPerGroup: 1 },
                         640: { slidesPerView: 1, slidesPerGroup: 1 },

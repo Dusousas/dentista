@@ -4,37 +4,37 @@ const cardData = [
     {
         id: 1,
         title: 'Odontopediatria / Atendimento infantil',
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet deleniti quaerat molestias facere ex dolorem fugiat possimus ipsam, vero praesentium?',
+        description: 'Cuidamos do sorriso das crianças com atenção, carinho e técnicas específicas para os pequenos pacientes.',
         icon: '/icons/icon1.webp',
     },
     {
         id: 2,
         title: 'Ortodontia e Ortopedia / Aparelhos',
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet deleniti quaerat molestias facere ex dolorem fugiat possimus ipsam, vero praesentium?',
+        description: 'Alinhamos seus dentes e maxilar com aparelhos modernos, garantindo estética e funcionalidade ao seu sorriso.',
         icon: '/icons/icon2.webp',
     },
     {
         id: 3,
         title: 'Implantes Dentários',
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet deleniti quaerat molestias facere ex dolorem fugiat possimus ipsam, vero praesentium?',
+        description: 'Recupere seu sorriso com implantes seguros e duradouros, que substituem dentes perdidos com aparência natural.',
         icon: '/icons/icon3.webp',
     },
     {
         id: 4,
         title: 'Clareamento dentário',
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet deleniti quaerat molestias facere ex dolorem fugiat possimus ipsam, vero praesentium?',
+        description: 'Dentes mais brancos e um sorriso renovado com técnicas de clareamento eficazes e seguras.',
         icon: '/icons/icon4.webp',
     },
     {
         id: 5,
         title: 'Próteses',
-        description: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet deleniti quaerat molestias facere ex dolorem fugiat possimus ipsam, vero praesentium?',
+        description: 'Devolvemos a estética e a função mastigatória com próteses personalizadas e confortáveis para seu dia a dia.',
         icon: '/icons/icon5.webp',
     },
     {
         id: 6,
         title: 'Clínica Geral',
-        description: 'Limpeza, raspagem, cirurgias, restaurações e próteses',
+        description: 'Atendimento completo para sua saúde bucal, com diagnósticos precisos e tratamentos personalizados para todas as idades.',
         icon: '/icons/icon6.webp',
     },
 

@@ -34,7 +34,8 @@ html {
 
 .bgNew{
   background-image: url('/img13.jpg');
-  background-size: cover;  
+  background-size: cover;
+  background-position: center;
 }
 
 .for{
