@@ -51,7 +51,7 @@ export default function About() {
 
                         </div>
                         <div className='lg:w-1/2'>
-                            <img className='arrow-border' src="mainbg.jpg" alt="" />
+                            <img className='arrow-border' src="mainbg1.jpg" alt="" />
                         </div>
                     </article>
 
